@@ -1,3 +1,4 @@
+require_relative 'funcionario'
 class Professor < Funcionario
     attr_accessor :disciplina
   def initialize(nome, numFuncionario, disciplina)
